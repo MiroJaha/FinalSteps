@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		8442830B277334B7002EC593 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8442830A277334B7002EC593 /* AppDelegate.swift */; };
 		8442830D277334B7002EC593 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8442830C277334B7002EC593 /* SceneDelegate.swift */; };
-		8442830F277334B7002EC593 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8442830E277334B7002EC593 /* ViewController.swift */; };
+		8442830F277334B7002EC593 /* PeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8442830E277334B7002EC593 /* PeopleViewController.swift */; };
 		84428312277334B7002EC593 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84428310277334B7002EC593 /* Main.storyboard */; };
 		84428315277334B7002EC593 /* FinalSteps.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84428313277334B7002EC593 /* FinalSteps.xcdatamodeld */; };
 		84428317277334B8002EC593 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84428316277334B8002EC593 /* Assets.xcassets */; };
@@ -17,6 +17,10 @@
 		84428325277334B8002EC593 /* FinalStepsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84428324277334B8002EC593 /* FinalStepsTests.swift */; };
 		8442832F277334B8002EC593 /* FinalStepsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8442832E277334B8002EC593 /* FinalStepsUITests.swift */; };
 		84428331277334B8002EC593 /* FinalStepsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84428330277334B8002EC593 /* FinalStepsUITestsLaunchTests.swift */; };
+		8442833E2773353F002EC593 /* FilmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8442833D2773353F002EC593 /* FilmsViewController.swift */; };
+		844283422773355F002EC593 /* StarWarsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844283412773355F002EC593 /* StarWarsModel.swift */; };
+		8442834427733603002EC593 /* PeopleDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8442834327733603002EC593 /* PeopleDetailsViewController.swift */; };
+		8442834627733618002EC593 /* FilmsDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8442834527733618002EC593 /* FilmsDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +44,7 @@
 		84428307277334B7002EC593 /* FinalSteps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalSteps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8442830A277334B7002EC593 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8442830C277334B7002EC593 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8442830E277334B7002EC593 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8442830E277334B7002EC593 /* PeopleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleViewController.swift; sourceTree = "<group>"; };
 		84428311277334B7002EC593 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84428314277334B7002EC593 /* FinalSteps.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FinalSteps.xcdatamodel; sourceTree = "<group>"; };
 		84428316277334B8002EC593 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +55,10 @@
 		8442832A277334B8002EC593 /* FinalStepsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinalStepsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8442832E277334B8002EC593 /* FinalStepsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalStepsUITests.swift; sourceTree = "<group>"; };
 		84428330277334B8002EC593 /* FinalStepsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalStepsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8442833D2773353F002EC593 /* FilmsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilmsViewController.swift; sourceTree = "<group>"; };
+		844283412773355F002EC593 /* StarWarsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarWarsModel.swift; sourceTree = "<group>"; };
+		8442834327733603002EC593 /* PeopleDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleDetailsViewController.swift; sourceTree = "<group>"; };
+		8442834527733618002EC593 /* FilmsDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmsDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +111,11 @@
 			children = (
 				8442830A277334B7002EC593 /* AppDelegate.swift */,
 				8442830C277334B7002EC593 /* SceneDelegate.swift */,
-				8442830E277334B7002EC593 /* ViewController.swift */,
+				8442833D2773353F002EC593 /* FilmsViewController.swift */,
+				844283412773355F002EC593 /* StarWarsModel.swift */,
+				8442834327733603002EC593 /* PeopleDetailsViewController.swift */,
+				8442834527733618002EC593 /* FilmsDetailsViewController.swift */,
+				8442830E277334B7002EC593 /* PeopleViewController.swift */,
 				84428310277334B7002EC593 /* Main.storyboard */,
 				84428316277334B8002EC593 /* Assets.xcassets */,
 				84428318277334B8002EC593 /* LaunchScreen.storyboard */,
@@ -262,8 +274,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				84428315277334B7002EC593 /* FinalSteps.xcdatamodeld in Sources */,
-				8442830F277334B7002EC593 /* ViewController.swift in Sources */,
+				8442830F277334B7002EC593 /* PeopleViewController.swift in Sources */,
+				8442833E2773353F002EC593 /* FilmsViewController.swift in Sources */,
 				8442830B277334B7002EC593 /* AppDelegate.swift in Sources */,
+				8442834427733603002EC593 /* PeopleDetailsViewController.swift in Sources */,
+				844283422773355F002EC593 /* StarWarsModel.swift in Sources */,
+				8442834627733618002EC593 /* FilmsDetailsViewController.swift in Sources */,
 				8442830D277334B7002EC593 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
