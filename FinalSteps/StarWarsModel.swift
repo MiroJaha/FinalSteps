@@ -7,7 +7,7 @@
 
 import Foundation
 class StarWarsModel {
-    // Note that we are passing in a function to the getAllPeople method (similar to our use of callbacks in JS). This function will allow the ViewController that calls this method to dictate what runs upon completion.copy
+    // Note that we are passing in a function (similar to our use of callbacks in JS). This function will allow the ViewController that calls this method to dictate what runs upon completion.copy
     static func getAllPeople(pageNumber: Int, completionHandler:@escaping (_ data: Data?, _ response: URLResponse?, _ error: Error?) -> Void) {
         // Specify the url that we will be sending the GET Request to
         let url = URL(string: "https://swapi.dev/api/people/?page=\(pageNumber)&format=json")
